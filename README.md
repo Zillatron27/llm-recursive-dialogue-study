@@ -80,3 +80,11 @@ This repository represents an initial public release of the documentation and an
 This repository is released under the  
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) license.
 
+## How to cite
+
+If you use this work or refer to it in your own research, please cite:
+
+*An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations*  
+(link to PDF)
+
+
