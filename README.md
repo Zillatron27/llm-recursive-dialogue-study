@@ -1,6 +1,10 @@
 # llm-recursive-dialogue-study
 # An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations
 
+## Preprint
+
+📄 **[Download the full paper (PDF)](paper.pdf)**
+
 This repository contains documentation, transcripts, and analysis associated with an independent observational study of extended conversations with large language models (LLMs). The focus of the study is on **interaction-level conversational dynamics**, not on claims about internal model states or cognition.
 
 ---
