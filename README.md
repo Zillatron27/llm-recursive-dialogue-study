@@ -1,77 +1,64 @@
 # An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations
 
-## Preprint
-📄 **[Download the full paper (PDF)](paper.pdf)**
-
----
-
-This repository contains documentation, transcripts, and analysis associated with an independent observational study of extended conversations with large language models (LLMs). The focus of the study is on **interaction-level conversational dynamics**, not on claims about internal model states or cognition.
+📄 **[Download the full paper (PDF)](paper.pdf)**  
+*Current version: v0.2 — revised to clarify operational definitions, replication details, and results classification.*
 
 ---
 
 ## Overview
 
-Extended interactions with LLMs are sometimes reported to produce unusual conversational behaviors, such as recursive self-reference, prolonged self-explanation, or difficulty terminating dialogue. These reports are often dismissed as anthropomorphic interpretation or attributed solely to interaction length.
+Extended interactions with large language models (LLMs) are sometimes reported to produce unusual conversational behaviors, including recursive self-reference, meta-level analysis of the interaction itself, and shifts in tone or framing over time. These reports are often dismissed as anthropomorphic interpretation or attributed solely to interaction length, without systematic comparison or control.
 
-This project documents and analyzes a small corpus of long-form chat sessions to determine **when such behaviors do and do not arise**, using explicit controls, replication attempts, and null results. The goal is careful characterization rather than interpretation or theory-building.
+This repository accompanies an observational study that documents and compares a small number of extended LLM conversations conducted under differing conditions. The focus of the study is on **interaction-level conversational dynamics**, rather than on claims about internal model states, mechanisms, or subjective experience.
+
+The goal is careful characterization rather than interpretation or theory-building.
 
 ---
 
 ## What this repository contains
 
-- **Paper**  
-  A preprint-ready manuscript titled:  
-  *An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations*
+- A preprint describing the study design, observational criteria, results, and limitations.
+- Verbatim transcripts of all conversational sessions analyzed in the paper, including:
+  - An unprimed baseline session.
+  - Follow-up sessions conducted with different model variants and memory contexts.
+  - A long-horizon control session spanning ~30,000 tokens.
+  - A partial replication attempt conducted on a separate account.
+- An executive summary and methodological clarifications included in the manuscript to support non-specialist readers.
 
-- **Transcripts**  
-  Verbatim chat logs from multiple sessions, including:
-  - an unprimed baseline session
-  - follow-up sessions with varying context
-  - a task-origin session that later shifted into meta-level discussion
-  - a partial replication attempt
-  - a long-horizon control session exceeding 30,000 tokens
- 
-- **Data**
-
-  All chat transcripts referenced in the accompanying preprint are provided
-  verbatim in the [`transcripts/`](transcripts/) directory.
-
-  Each file corresponds to a single, continuous chat session conducted within
-  one model instance. Transcripts are included for transparency and inspection
-  of interaction-level behavior only.
-
-See `transcripts/README.txt` for file descriptions and scope notes.
-
-- **Supporting material**  
-  An executive summary and methodological clarifications intended to make the work accessible to non-specialist readers.
+All transcripts are provided without modification and correspond directly to sessions described in the paper.
 
 ---
 
-## What this is
+## What this study *is*
 
-- A **descriptive, interaction-level analysis**
-- Based on **verbatim transcripts**, not anecdotes
-- Explicitly reports **null results and failures to replicate**
-- Focused on **observable conversational behavior**
-- Written with skeptical review in mind
+- An observational, descriptive analysis of conversational behavior in extended LLM interactions.
+- Focused on identifying when specific interaction-level patterns appear, fail to appear, or diverge.
+- Explicitly inclusive of null results and failed replications.
+- Constrained to externally observable behavior in text-based dialogue.
 
 ---
 
-## What this is not
+## What this study *is not*
 
-- ❌ A claim that LLMs are conscious, self-aware, or sentient  
-- ❌ Evidence of identity persistence or personal continuity  
-- ❌ Proof of emergent agency or intent  
-- ❌ A theoretical account of internal model mechanisms  
-- ❌ A general claim about all models or all conversations  
+- ❌ A claim about consciousness, sentience, or subjective experience.
+- ❌ A mechanistic explanation of model behavior.
+- ❌ Proof of emergent agency or intent.
+- ❌ A generalization across all models or usage contexts.
 
-All findings are restricted to observable interaction dynamics.
+---
+
+## Data
+
+All chat transcripts referenced in the accompanying preprint are provided verbatim in the `transcripts/` directory. File names correspond to the session labels used in the paper.
+
+No transcripts have been edited for content or tone.
 
 ---
 
 ## Status
 
-This repository represents an initial public release of the documentation and analysis. The material may later be archived as a formal preprint. No claims beyond those explicitly stated in the manuscript are intended.
+This repository represents an initial public release of an evolving observational study.  
+The current manuscript reflects a revised version incorporating clarified operational definitions, corrected replication details, and strengthened control comparisons.
 
 ---
 
@@ -80,11 +67,11 @@ This repository represents an initial public release of the documentation and an
 This repository is released under the  
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) license.
 
+---
+
 ## How to cite
 
-If you use this work or refer to it in your own research, please cite:
+If you reference this work, please cite:
 
 *An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations*  
-(link to PDF)
-
-
+Available at: https://github.com/Zillatron27/llm-recursive-dialogue-study
