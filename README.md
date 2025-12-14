@@ -30,6 +30,17 @@ This project documents and analyzes a small corpus of long-form chat sessions to
   - a task-origin session that later shifted into meta-level discussion
   - a partial replication attempt
   - a long-horizon control session exceeding 30,000 tokens
+ 
+- ## Data
+
+  All chat transcripts referenced in the accompanying preprint are provided
+  verbatim in the [`transcripts/`](transcripts/) directory.
+
+  Each file corresponds to a single, continuous chat session conducted within
+  one model instance. Transcripts are included for transparency and inspection
+  of interaction-level behavior only.
+
+See `transcripts/README.txt` for file descriptions and scope notes.
 
 - **Supporting material**  
   An executive summary and methodological clarifications intended to make the work accessible to non-specialist readers.
