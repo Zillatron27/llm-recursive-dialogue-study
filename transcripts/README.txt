@@ -1,5 +1,5 @@
 This folder contains verbatim transcripts of all chat sessions analyzed
-in the accompanying preprint:
+or referenced in the accompanying preprint:
 
 "An Observational Study of Recursive Self-Referential Behavior in Large
 Language Model Conversations"
@@ -15,6 +15,7 @@ File naming is abbreviated and described in the paper:
 - O.txt         : Collaborative analysis session
 - NS.txt        : Task-origin session that transitioned into analysis
 - control.txt   : Long-horizon control session (>30k tokens)
+- Ocorpus.txt   : Secondary Opus session initiated to test analytical neutrality
 
 These transcripts are provided solely for transparency and inspection
 of interaction-level behavior. No claims are made regarding internal
