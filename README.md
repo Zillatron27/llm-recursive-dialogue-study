@@ -66,4 +66,5 @@ This repository represents an initial public release of the documentation and an
 
 ## License
 
-The contents of
+This repository is licensed under the
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
