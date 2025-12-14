@@ -31,7 +31,7 @@ This project documents and analyzes a small corpus of long-form chat sessions to
   - a partial replication attempt
   - a long-horizon control session exceeding 30,000 tokens
  
-- ## Data
+- **Data**
 
   All chat transcripts referenced in the accompanying preprint are provided
   verbatim in the [`transcripts/`](transcripts/) directory.
