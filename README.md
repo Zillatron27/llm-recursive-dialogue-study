@@ -1,7 +1,7 @@
 # An Observational Study of Recursive Self-Referential Behavior in Large Language Model Conversations
 
 📄 **[Download the full paper (PDF)](paper.pdf)**  
-*Current version: v0.2 — revised to clarify operational definitions, replication details, and results classification.*
+*Current version: v0.3 — revised to clarify operational definitions, replication details, results classification and additional clarity pass.*
 
 ---
 
